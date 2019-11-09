@@ -1,0 +1,4 @@
+[build]
+base = "vmportfolio/"
+publish = "vmportfolio/build/"
+command = "yarn build"
