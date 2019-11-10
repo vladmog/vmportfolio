@@ -13,7 +13,6 @@ S.Container = styled.div`
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
 
     h1 {
         font-size: 60px;
