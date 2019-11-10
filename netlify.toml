@@ -1,8 +1,3 @@
-[build]
-  command = "yarn build"
-  publish="vmportfolio/build"
-  base = "vmportfolio"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
