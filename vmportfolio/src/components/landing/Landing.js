@@ -16,7 +16,7 @@ S.Container = styled.div`
 
     h1 {
         font-size: 60px;
-        margin: 20px 0px 20px 0px;
+        margin: 5px 0px 20px 0px;
     }
 
     div {
