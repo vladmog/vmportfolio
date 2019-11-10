@@ -6,15 +6,14 @@ import MePic from "../../img/me.jpg"
 const S = {};
 
 S.Container = styled.div`
-    border: solid black 1px;
+    // border: solid black 1px;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
-    padding-top 5px;
+    padding-top: 20px;
 
     h1 {
         font-size: 60px;
