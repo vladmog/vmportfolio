@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import MePic from "../../img/me.jpg"
 
 
 const S = {};
@@ -9,44 +10,46 @@ S.Container = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    padding-top 5px;
 
+    h1 {
+        font-size: 60px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    div {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 900;
+
+        span {
+            font-weight: normal;
+        }
+    }
+
+`
+
+S.MePic = styled.img`
+    width: 65vw;
+    object-fit: contain;
 `
 
 S.List = styled.ul`
     list-style-type: none;
-    text-align: left;
+    text-align: center;
     // border: solid black 1px;
     padding: 0px;
     font-size: 45px;
     width: 100%;
     font-weight: 600;
     padding-left: 10px;
-    color: #828282;
+    margin-top: 40px;
 
-    li {
-        margin-bottom: 25px;
-        
-        span {
-            color: white;
-            
-            span {
-                color:red;
-            }
-        }
-    }
 
-    li:last-child {
-        margin-top: 50px;
-        color: white
-        font-size: 65px;
-
-        span {
-            color: red;
-        }
-    }
 `
 
 
@@ -56,20 +59,12 @@ function Landing(props){
 
     return(
         <S.Container>
+            <h1>Vlad</h1>
+            <S.MePic src = {MePic}></S.MePic>
+            <div>Fig. 7-23 <span>Dev at rest</span></div>
             <S.List>
-                <li>
-                    I'm not <div>what <span>I say...</span></div>
-                </li>
-                <li>
-                    I'm not <div>what <span>I show...</span></div>
-                </li>
-                <li>
-                    I'm not <div>what <span>I build...</span></div>
-                </li>
-                <li>
-                    I'm not <div>what <span>I know...</span></div>
-                </li>
-                <li>I am<span>.</span></li>
+                <li>work</li>
+                <li>thoughts</li>
             </S.List>
         </S.Container>
     )
