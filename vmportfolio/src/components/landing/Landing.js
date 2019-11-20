@@ -41,7 +41,7 @@ S.List = styled.ul`
     text-align: center;
     // border: solid black 1px;
     padding: 0px;
-    font-size: 45px;
+    font-size: 40px;
     width: 100%;
     font-weight: 600;
     padding-left: 10px;
@@ -51,9 +51,19 @@ S.List = styled.ul`
 `
 
 
-
-
 function Landing(props){
+
+    const goToPortfolio = (e) => {
+        e.preventDefault()
+        console.log("Go to portfolio")
+        props.history.push("/portfolio")
+    }
+
+    const goToBlog = (e) => {
+        e.preventDefault()
+        console.log("Go to blog")
+        props.history.push("/blog")
+    }
 
     return(
         <S.Container>
@@ -61,8 +71,8 @@ function Landing(props){
             <S.MePic src = {MePic}></S.MePic>
             <div>Fig. 7-23 <span>Dev at rest</span></div>
             <S.List>
-                <li>work</li>
-                <li>thoughts</li>
+                <li onClick = {e => goToPortfolio(e)}>work</li>
+                <li onClick = {e => goToBlog(e)}>thoughts</li>
             </S.List>
         </S.Container>
     )
