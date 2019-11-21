@@ -32,7 +32,7 @@ S.Container = styled.div`
 `
 
 S.MePic = styled.img`
-    width: 65vw;
+    width: 100vw;
     object-fit: contain;
 `
 
@@ -46,6 +46,10 @@ S.List = styled.ul`
     font-weight: 600;
     padding-left: 10px;
     margin-top: 40px;
+
+    li {
+        margin-bottom: 10px;
+    }
 
 
 `

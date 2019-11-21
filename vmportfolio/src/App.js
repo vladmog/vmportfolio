@@ -14,8 +14,9 @@ const S = {};
 S.Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: width: calc(100vw - (100vw - 100%));
+  width: calc(100vw - (100vw - 100%));
   align-items: center;
+  box-sizing: border-box;
 `
 
 
