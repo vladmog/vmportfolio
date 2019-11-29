@@ -19,10 +19,15 @@ S.Container = styled.div`
     box-sizing: border-box;
     background-color: #F2F2F2;
     
+    
 
     span {
         font-size: 72px;
         margin-left: 10px;
+
+        @media (max-width: 380px) {
+            font-size: 24px;
+        }
     }
 
     ul {
@@ -30,6 +35,20 @@ S.Container = styled.div`
         width: 45%;
         display: flex;
         justify-content: space-around;
+        // border: solid black 1px;
+
+        @media (max-width: 380px) {
+            font-size: 14px;
+            justify-content: space-between;
+            padding-left: 0px;
+            width: 60%;
+        }
+
+        a {
+            // border: solid red 1px;
+            margin: 0px;
+            padding: 0px;
+        }
     }
 `
 

@@ -15,9 +15,14 @@ S.Container = styled.div`
   display: flex;
   flex-direction: column;
   width: calc(100vw - (100vw - 100%));
+  // width: 100vw;
   align-items: center;
   box-sizing: border-box;
   background-color: #F2F2F2;
+  @media (max-width: 380px) {
+    background-color: yellow
+  }
+
 `
 
 

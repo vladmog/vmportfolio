@@ -14,11 +14,17 @@ S.Container = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
+    @media (max-width: 380px) {
+        padding: 0px 20px;
+    }
 
     h1 {
         margin-top: 15vh;
         font-size: 48px;
         text-align: left;
+        @media (max-width: 380px) {
+            font-size: 24px;
+        }
     }
 `
 
@@ -29,12 +35,19 @@ S.BlockContainer = styled.div`
     // border: solid green 1px;
     width: 100%;
     height: 30vh;
+
+    
 `
 
 S.Block = styled.div`
     height: 63px;
     width: 63px;
     background-color: black;
+
+    @media (max-width: 380px) {
+        width: 50px;
+        height: 50px;
+    }
 `
 
 function Quadrant1(){

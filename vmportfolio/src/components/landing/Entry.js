@@ -11,30 +11,46 @@ S.Container = styled.div`
     justify-content: space-between;
     font-size: 24px;
     border-bottom: solid black 3px;
+    // border: solid green 1px;
 
     span {
         text-align: left;
         // border: solid black 1px;
         width: 20%;
-
     }
 
-    span:nth-child(1) {
+    span {
         width: 50%;
     }
 
-    span:nth-child(3) {
-        text-align: right;
-        margin-right: 2%;
+    div {
+        width: 40%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        // border: solid purple 1px;
+
+        span {
+            text-align: left;
+            // border: solid black 1px;
+            width: 50%;
+    
+        }
+        span:nth-child(2) {
+            text-align: right;
+        }
     }
+
 `
 
 function Entry(props){
     return(
         <S.Container>
             <span>{props.entry.title}</span>
-            <span>{props.entry.category}</span>
-            <span>{props.entry.date}</span>
+            <div>
+                <span>{props.entry.category}</span>
+                <span>{props.entry.date}</span>
+            </div>
             
         </S.Container>
     )
