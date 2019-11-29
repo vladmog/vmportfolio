@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import styled from "styled-components"
 
 import Landing from "./components/landing/Landing"
-import Nav from "./Nav";
 import Blog from "./components/blog/Blog";
 import Portfolio from "./components/portfolio/Portfolio";
+import Nav from "./components/nav/Nav";
 
 const S = {};
 
@@ -23,6 +23,7 @@ S.Container = styled.div`
 function App() {
   return (
     <S.Container className="App">
+      <Nav />
       <Router>
         <Switch>
           <Route path = "/" exact component = {Landing}/>
