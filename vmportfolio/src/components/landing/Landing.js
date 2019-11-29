@@ -17,6 +17,11 @@ S.Container = styled.div`
     font-family: acumin-pro-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+
+    footer {
+        align-self: center;
+    }
+    
 `
 
 
@@ -40,7 +45,10 @@ function Landing(props){
             <Quadrant1 />
             <Quadrant2 />
             <Quadrant3 />
-            <Quadrant4 />    
+            <Quadrant4 />  
+            <footer>
+                Icons made by Freepik from www.flaticon.com
+            </footer>  
         </S.Container>
     )
 }

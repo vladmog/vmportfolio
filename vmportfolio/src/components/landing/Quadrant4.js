@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import instagramPng from "../../img/025-instagram.png"
+import githubPng from "../../img/038-github.png"
+import twitterPng from "../../img/043-twitter.png"
 
 const S = {};
 
@@ -14,16 +17,36 @@ S.Container = styled.div`
 
     h2 {
         font-size: 72px;
-        margin: 10% 0px 0px 0px;
+        margin: 10% 0px 1% 0px;
     }
 
     ul {
         list-style-type: none;
+        width: 100%;
+        padding: 0px;
+
         li {
             font-size: 36px;
             text-align: left;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            span {
+                margin-left: 3%;
+            }
         }
     }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+`
+
+S.Placeholder = styled.div`
+    width: 70px;
+    height: 70px;
 `
 
 
@@ -33,9 +56,22 @@ function Quadrant4(props){
         <S.Container>
             <h2>CONTACT</h2>
             <ul>
-                <li>email: vladmog@gmail.com</li>
-                <li>Instagram: lightcatch</li>
-                <li>LinkedIn: vladmog</li>
+                <li>
+                    <S.Placeholder />
+                    <span>vladmog@gmail.com</span>
+                </li>
+                <li>
+                    <img src = {instagramPng} />
+                    <span>lightcatch</span>
+                </li>
+                <li>
+                    <img src = {githubPng} />
+                    <span>vladmog</span>
+                </li>
+                <li>
+                    <img src = {twitterPng} />
+                    <span>vladeeo</span>
+                </li>
             </ul>
         </S.Container>
     )

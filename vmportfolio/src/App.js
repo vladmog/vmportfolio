@@ -17,6 +17,7 @@ S.Container = styled.div`
   width: calc(100vw - (100vw - 100%));
   align-items: center;
   box-sizing: border-box;
+  background-color: #F2F2F2;
 `
 
 

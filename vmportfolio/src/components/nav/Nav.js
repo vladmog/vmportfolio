@@ -17,7 +17,7 @@ S.Container = styled.div`
     font-weight: 700;
     font-style: normal;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #F2F2F2;
     
 
     span {
