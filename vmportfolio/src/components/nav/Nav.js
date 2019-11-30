@@ -19,7 +19,7 @@ S.Container = styled.div`
     box-sizing: border-box;
     background-color: white;
 
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
         padding: 0px 20px;
     }
     
@@ -29,7 +29,7 @@ S.Container = styled.div`
         font-size: 72px;
         margin-left: 10px;
 
-        @media (max-width: 480px) {
+        @media (max-width: 768px) {
             font-size: 24px;
             margin-left: 0px;
         }
@@ -43,6 +43,12 @@ S.Container = styled.div`
         // border: solid black 1px;
 
     
+        @media (max-width: 768px) {
+            font-size: 20px;
+            justify-content: space-between;
+            padding-left: 0px;
+            width: 60%;
+        }
         @media (max-width: 480px) {
             font-size: 14px;
             justify-content: space-between;

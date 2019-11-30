@@ -16,6 +16,9 @@ S.Container = styled.div`
     padding: 0px 100px;
     // border: solid red 1px;
     
+    @media (max-width: 768px) {
+        padding: 0px 40px;
+    }
     @media (max-width: 480px) {
         padding: 0px 20px;
     }
@@ -25,6 +28,9 @@ S.Container = styled.div`
         font-size: 48px;
         text-align: left;
         
+        @media (max-width: 768px) {
+            font-size: 28px;
+        }
         @media (max-width: 480px) {
             font-size: 28px;
         }
@@ -48,7 +54,7 @@ S.Block = styled.div`
     background-color: black;
 
     
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
         width: 50px;
         height: 50px;
     }
