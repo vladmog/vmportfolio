@@ -47,8 +47,8 @@ function Landing(props){
         <S.Container>
             <Quadrant1 />
             <Quadrant2 />
-            <Quadrant3 />
-            <Quadrant4 />  
+            {/* <Quadrant3 /> */}
+            {/* <Quadrant4 />   */}
             <footer>
                 Icons made by Freepik from www.flaticon.com
             </footer>  

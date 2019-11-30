@@ -18,6 +18,9 @@ S.Container = styled.div`
     @media (max-width: 380px) {
         padding: 0px 20px;
     }
+    @media (max-width: 480px) {
+        padding: 0px 20px;
+    }
 
 
     h2 {
@@ -25,6 +28,9 @@ S.Container = styled.div`
         align-self: flex-start;
         margin: 1% 0px;
         @media (max-width: 380px) {
+            font-size: 48px;
+        }
+        @media (max-width: 480px) {
             font-size: 48px;
         }
     }
@@ -35,6 +41,9 @@ S.Container = styled.div`
         margin-top: 3%;
         
         @media (max-width: 380px) {
+            font-size: 18px;
+        }
+        @media (max-width: 480px) {
             font-size: 18px;
         }
     }

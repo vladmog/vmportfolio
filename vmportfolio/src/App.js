@@ -18,7 +18,7 @@ S.Container = styled.div`
   // width: 100vw;
   align-items: center;
   box-sizing: border-box;
-  background-color: #F2F2F2;
+  background-color: white;
 
   // @media (min-width: 320px) {
   //   background-color: yellow;
@@ -50,6 +50,40 @@ S.Container = styled.div`
   // @media (min-width: 1200px) {
   //   background-color: #46f2b6;
   //   // blue green
+  // }
+
+
+
+  // @media (max-width: 1200px) {
+  //   background-color: #46f2b6;
+  //   // blue green
+  // }
+  // @media (max-width: 1024px) {
+  //   background-color: #7595ff;
+  //   // blue
+  // }
+  // @media (max-width: 900px) {
+  //   background-color: #d77cf2;
+  //   // purple
+  // }
+  // @media (max-width: 768px) {
+  //   background-color: #91e698;
+  //   // green
+  // }
+  // @media (max-width: 600px) {
+  //   background-color: #ffce63;
+  //   // orange
+  // }
+  // @media (max-width: 480px) {
+  //   background-color: #b5b5b5;
+  //   // grey
+  // }
+  // @media (max-width: 380px) {
+  //   background-color: #ed998c; 
+  //   // pink
+  // }
+  // @media (max-width: 320px) {
+  //   background-color: yellow;
   // }
 
 `
