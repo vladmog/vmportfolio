@@ -18,6 +18,10 @@ S.Container = styled.div`
     font-style: normal;
     box-sizing: border-box;
     background-color: white;
+
+    @media (max-width: 480px) {
+        padding: 0px 20px;
+    }
     
     
 
@@ -25,11 +29,9 @@ S.Container = styled.div`
         font-size: 72px;
         margin-left: 10px;
 
-        @media (max-width: 380px) {
-            font-size: 24px;
-        }
         @media (max-width: 480px) {
             font-size: 24px;
+            margin-left: 0px;
         }
     }
 
@@ -40,12 +42,7 @@ S.Container = styled.div`
         justify-content: space-around;
         // border: solid black 1px;
 
-        @media (max-width: 380px) {
-            font-size: 14px;
-            justify-content: space-between;
-            padding-left: 0px;
-            width: 60%;
-        }
+    
         @media (max-width: 480px) {
             font-size: 14px;
             justify-content: space-between;

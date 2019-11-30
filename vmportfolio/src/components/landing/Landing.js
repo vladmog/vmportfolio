@@ -20,9 +20,7 @@ S.Container = styled.div`
 
     footer {
         align-self: center;
-        @media (max-width: 380px) {
-            font-size: 12px;
-        }
+    
         @media (max-width: 480px) {
             font-size: 12px;
         }

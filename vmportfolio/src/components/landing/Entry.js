@@ -11,13 +11,9 @@ S.Container = styled.div`
     justify-content: space-between;
     font-size: 24px;
     border-bottom: solid black 3px;
+    padding: 12px 0px 12px 0px;
     // border: solid green 1px;
-    @media (max-width: 380px) {
-        flex-direction: column;
-        // height: 12vh;
-        height: auto;
-        padding: 5px 0px 5px 0px;
-    }
+    
     @media (max-width: 480px) {
         flex-direction: column;
         // height: 12vh;
@@ -29,10 +25,7 @@ S.Container = styled.div`
         text-align: left;
         // border: solid black 1px;
         width: 55%;
-        @media (max-width: 380px) {
-            width: 100%;
-            font-size: 18px;
-        }
+        
         @media (max-width: 480px) {
             width: 100%;
             font-size: 18px;
@@ -48,11 +41,7 @@ S.Container = styled.div`
         justify-content: space-between;
         // border: solid purple 1px;
 
-        @media (max-width: 380px) {
-            width: 100%;
-            justify-content: flex-start;
-            color: #515151;
-        }
+        
         @media (max-width: 480px) {
             width: 100%;
             justify-content: flex-start;
@@ -64,10 +53,7 @@ S.Container = styled.div`
             // border: solid black 1px;
             width: 50%;
 
-            @media (max-width: 380px) {
-                text-align: left;
-                font-size: 14px;
-            }
+            
             @media (max-width: 480px) {
                 text-align: left;
                 font-size: 14px;
@@ -77,10 +63,7 @@ S.Container = styled.div`
         span:nth-child(2) {
             text-align: right;
 
-            @media (max-width: 380px) {
-                text-align: left;
-                font-size: 14px;
-            }
+            
             @media (max-width: 480px) {
                 text-align: left;
                 font-size: 14px;
