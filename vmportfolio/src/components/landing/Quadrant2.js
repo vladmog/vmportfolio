@@ -17,6 +17,9 @@ S.Container = styled.div`
     margin-top: 10vh;
 
     
+    @media (max-width: 1024px) {
+  
+    }
     @media (max-width: 768px) {
         padding: 0px 40px;
         margin-top: 10vh;
@@ -32,6 +35,10 @@ S.Container = styled.div`
         align-self: flex-start;
         margin: 0px 0px 8vh 0px;
         
+        @media (max-width: 1024px) {
+            font-size: 48px;
+            margin-bottom: 3vh;
+        }
         @media (max-width: 768px) {
             font-size: 48px;
             margin-bottom: 3vh;
@@ -48,6 +55,8 @@ S.Container = styled.div`
         margin-top: 3%;
         
         
+        @media (max-width: 1024px) {
+        }
         @media (max-width: 768px) {
             font-size: 18px;
         }

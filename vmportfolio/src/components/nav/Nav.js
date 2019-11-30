@@ -29,6 +29,10 @@ S.Container = styled.div`
         font-size: 72px;
         margin-left: 10px;
 
+        @media (max-width: 1024px) {
+            font-size: 48px;
+            margin-left: 0px;
+        }
         @media (max-width: 768px) {
             font-size: 24px;
             margin-left: 0px;
@@ -43,6 +47,7 @@ S.Container = styled.div`
         // border: solid black 1px;
 
     
+       
         @media (max-width: 768px) {
             font-size: 20px;
             justify-content: space-between;

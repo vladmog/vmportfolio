@@ -28,6 +28,9 @@ S.Container = styled.div`
         font-size: 48px;
         text-align: left;
         
+        @media (max-width: 1024px) {
+            font-size: 32px;
+        }
         @media (max-width: 768px) {
             font-size: 28px;
         }

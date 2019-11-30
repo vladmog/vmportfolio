@@ -10,7 +10,6 @@ S.Container = styled.div`
     width: 100%;
     box-sizing: border-box;
     padding: 0px 100px;
-    height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,6 +27,9 @@ S.Container = styled.div`
         font-size: 72px;
         margin: 10% 0px 1% 0px;
         
+        @media (max-width: 1024px) {
+            font-size: 48px;
+        }
         @media (max-width: 768px) {
             font-size: 48px;
         }
@@ -48,6 +50,9 @@ S.Container = styled.div`
             align-items: center;
             margin-bottom: 10px;
 
+            @media (max-width: 1024px) {
+                font-size: 24px;
+            }
             @media (max-width: 768px) {
                 font-size: 24px;
             }

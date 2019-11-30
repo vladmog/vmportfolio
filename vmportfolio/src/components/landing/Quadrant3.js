@@ -29,6 +29,10 @@ S.Container = styled.div`
         margin: 0px 0px 8vh 0px;
 
         
+        @media (max-width: 1024px) {
+            font-size: 48px;
+            margin-bottom: 5vh;
+        }
         @media (max-width: 768px) {
             font-size: 48px;
             margin-bottom: 5vh;
@@ -42,26 +46,33 @@ S.Container = styled.div`
 
 S.Grid = styled.div`
     display: grid;
-    height: 70vh;
+    height: 550px;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: (2, 1fr);
     grid-gap: 45px;
 
     
+    @media (max-width: 1024px) {
+        margin-top: 0%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: (3, 1fr);
+        grid-gap: 36px;
+        height: 500px;
+    }
     @media (max-width: 768px) {
         margin-top: 0%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: (3, 1fr);
         grid-gap: 36px;
-        height: 60vh;
+        height: 450px;
     }
     @media (max-width: 480px) {
         margin-top: 0%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: (3, 1fr);
         grid-gap: 36px;
-        height: 60vh;
+        height: 450px;
     }
 
     div {
