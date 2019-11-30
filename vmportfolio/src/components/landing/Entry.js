@@ -5,7 +5,7 @@ const S = {};
 
 S.Container = styled.div`
     width: 100%;
-    height: 7vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,12 +18,22 @@ S.Container = styled.div`
         height: auto;
         padding: 5px 0px 5px 0px;
     }
+    @media (max-width: 480px) {
+        flex-direction: column;
+        // height: 12vh;
+        height: auto;
+        padding: 5px 0px 5px 0px;
+    }
 
     span {
         text-align: left;
-        // border: solid black 1px;
-        width: 50%;
+        border: solid black 1px;
+        width: 55%;
         @media (max-width: 380px) {
+            width: 100%;
+            font-size: 18px;
+        }
+        @media (max-width: 480px) {
             width: 100%;
             font-size: 18px;
         }
@@ -43,6 +53,11 @@ S.Container = styled.div`
             justify-content: flex-start;
             color: #515151;
         }
+        @media (max-width: 480px) {
+            width: 100%;
+            justify-content: flex-start;
+            color: #515151;
+        }
 
         span {
             text-align: left;
@@ -53,12 +68,20 @@ S.Container = styled.div`
                 text-align: left;
                 font-size: 14px;
             }
+            @media (max-width: 480px) {
+                text-align: left;
+                font-size: 14px;
+            }
     
         }
         span:nth-child(2) {
             text-align: right;
 
             @media (max-width: 380px) {
+                text-align: left;
+                font-size: 14px;
+            }
+            @media (max-width: 480px) {
                 text-align: left;
                 font-size: 14px;
             }

@@ -17,12 +17,18 @@ S.Container = styled.div`
     @media (max-width: 380px) {
         padding: 0px 20px;
     }
+    @media (max-width: 480px) {
+        padding: 0px 20px;
+    }
 
     h1 {
         margin-top: 15vh;
         font-size: 48px;
         text-align: left;
         @media (max-width: 380px) {
+            font-size: 28px;
+        }
+        @media (max-width: 480px) {
             font-size: 28px;
         }
     }
@@ -45,6 +51,10 @@ S.Block = styled.div`
     background-color: black;
 
     @media (max-width: 380px) {
+        width: 50px;
+        height: 50px;
+    }
+    @media (max-width: 480px) {
         width: 50px;
         height: 50px;
     }
