@@ -46,7 +46,14 @@ S.Block = styled.div`
     background-color: black;
     align-self: flex-start;
     margin-top: 5%;
+    
+    @media (max-width: 380px) {
+        width: 50px;
+        height: 50px;
+    }
 `
+
+
 
 const entries = [
     {
