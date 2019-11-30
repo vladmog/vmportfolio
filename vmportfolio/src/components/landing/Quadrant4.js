@@ -14,9 +14,9 @@ S.Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    @media (max-width: 380px) {
-        padding: 0px 20px;
-    }
+    // border: solid black 1px;
+    margin-top: 10vh;
+    
     @media (max-width: 480px) {
         padding: 0px 20px;
     }
@@ -24,9 +24,7 @@ S.Container = styled.div`
     h2 {
         font-size: 72px;
         margin: 10% 0px 1% 0px;
-        @media (max-width: 380px) {
-            font-size: 48px;
-        }
+        
         @media (max-width: 480px) {
             font-size: 48px;
         }
@@ -44,9 +42,6 @@ S.Container = styled.div`
             align-items: center;
             margin-bottom: 10px;
 
-            @media (max-width: 380px) {
-                font-size: 24px;
-            }
             @media (max-width: 480px) {
                 font-size: 24px;
             }
@@ -61,10 +56,6 @@ S.Container = styled.div`
         height: 70px;
         width: 70px;
 
-        @media (max-width: 380px) {
-            height: 54px;
-            width: 54px;
-        }
         @media (max-width: 480px) {
             height: 54px;
             width: 54px;

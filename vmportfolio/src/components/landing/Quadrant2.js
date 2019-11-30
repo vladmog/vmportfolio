@@ -8,30 +8,29 @@ const S = {};
 S.Container = styled.div`
     width: 100%;
     box-sizing: border-box;
-    height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
+    // border: solid green 1px;
+    margin-top: 10vh;
 
-    @media (max-width: 380px) {
-        padding: 0px 20px;
-    }
+    
     @media (max-width: 480px) {
         padding: 0px 20px;
+        margin-top: 10vh;
     }
 
 
     h2 {
         font-size: 72px;
         align-self: flex-start;
-        margin: 1% 0px;
-        @media (max-width: 380px) {
-            font-size: 48px;
-        }
+        margin: 0px 0px 8vh 0px;
+        
         @media (max-width: 480px) {
             font-size: 48px;
+            margin-bottom: 3vh;
         }
     }
 
@@ -40,9 +39,7 @@ S.Container = styled.div`
         font-size: 24px;
         margin-top: 3%;
         
-        @media (max-width: 380px) {
-            font-size: 18px;
-        }
+        
         @media (max-width: 480px) {
             font-size: 18px;
         }
@@ -56,7 +53,7 @@ S.Block = styled.div`
     align-self: flex-start;
     margin-top: 5%;
     
-    @media (max-width: 380px) {
+    @media (max-width: 480px) {
         width: 50px;
         height: 50px;
     }

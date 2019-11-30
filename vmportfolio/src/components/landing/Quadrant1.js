@@ -14,20 +14,17 @@ S.Container = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
-    @media (max-width: 380px) {
-        padding: 0px 20px;
-    }
+    // border: solid red 1px;
+    
     @media (max-width: 480px) {
         padding: 0px 20px;
     }
 
     h1 {
-        margin-top: 15vh;
+        margin-top: 25vh;
         font-size: 48px;
         text-align: left;
-        @media (max-width: 380px) {
-            font-size: 28px;
-        }
+        
         @media (max-width: 480px) {
             font-size: 28px;
         }
@@ -50,10 +47,7 @@ S.Block = styled.div`
     width: 63px;
     background-color: black;
 
-    @media (max-width: 380px) {
-        width: 50px;
-        height: 50px;
-    }
+    
     @media (max-width: 480px) {
         width: 50px;
         height: 50px;
