@@ -12,16 +12,24 @@ S.Container = styled.div`
     font-size: 24px;
     border-bottom: solid black 3px;
     // border: solid green 1px;
+    @media (max-width: 380px) {
+        flex-direction: column;
+        // height: 12vh;
+        height: auto;
+        padding: 5px 0px 5px 0px;
+    }
 
     span {
         text-align: left;
         // border: solid black 1px;
-        width: 20%;
+        width: 50%;
+        @media (max-width: 380px) {
+            width: 100%;
+            font-size: 18px;
+        }
     }
 
-    span {
-        width: 50%;
-    }
+ 
 
     div {
         width: 40%;
@@ -30,14 +38,30 @@ S.Container = styled.div`
         justify-content: space-between;
         // border: solid purple 1px;
 
+        @media (max-width: 380px) {
+            width: 100%;
+            justify-content: flex-start;
+            color: #515151;
+        }
+
         span {
             text-align: left;
             // border: solid black 1px;
             width: 50%;
+
+            @media (max-width: 380px) {
+                text-align: left;
+                font-size: 14px;
+            }
     
         }
         span:nth-child(2) {
             text-align: right;
+
+            @media (max-width: 380px) {
+                text-align: left;
+                font-size: 14px;
+            }
         }
     }
 

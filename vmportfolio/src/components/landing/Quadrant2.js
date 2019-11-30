@@ -15,17 +15,28 @@ S.Container = styled.div`
     align-items: center;
     padding: 0px 100px;
 
+    @media (max-width: 380px) {
+        padding: 0px 20px;
+    }
+
 
     h2 {
         font-size: 72px;
         align-self: flex-start;
         margin: 1% 0px;
+        @media (max-width: 380px) {
+            font-size: 48px;
+        }
     }
 
     a {
         align-self: flex-end;
         font-size: 24px;
         margin-top: 3%;
+        
+        @media (max-width: 380px) {
+            font-size: 18px;
+        }
     }
 `
 

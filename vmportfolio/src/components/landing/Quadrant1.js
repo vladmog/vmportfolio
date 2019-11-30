@@ -23,7 +23,7 @@ S.Container = styled.div`
         font-size: 48px;
         text-align: left;
         @media (max-width: 380px) {
-            font-size: 24px;
+            font-size: 28px;
         }
     }
 `
