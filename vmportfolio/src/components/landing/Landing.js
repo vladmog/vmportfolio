@@ -23,6 +23,9 @@ S.Container = styled.div`
         @media (max-width: 380px) {
             font-size: 12px;
         }
+        @media (max-width: 480px) {
+            font-size: 12px;
+        }
     }
     
 `
@@ -47,8 +50,8 @@ function Landing(props){
         <S.Container>
             <Quadrant1 />
             <Quadrant2 />
-            {/* <Quadrant3 /> */}
-            {/* <Quadrant4 />   */}
+            <Quadrant3 />
+            <Quadrant4 />  
             <footer>
                 Icons made by Freepik from www.flaticon.com
             </footer>  

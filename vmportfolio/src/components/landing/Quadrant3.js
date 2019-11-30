@@ -14,6 +14,9 @@ S.Container = styled.div`
     @media (max-width: 380px) {
         padding: 0px 20px;
     }
+    @media (max-width: 480px) {
+        padding: 0px 20px;
+    }
 
     h2 {
         font-size: 72px;
@@ -22,6 +25,9 @@ S.Container = styled.div`
         margin: 1% 0px;
 
         @media (max-width: 380px) {
+            font-size: 43px;
+        }
+        @media (max-width: 480px) {
             font-size: 43px;
         }
     }
@@ -42,6 +48,13 @@ S.Grid = styled.div`
         grid-gap: 36px;
         height: 60%;
     }
+    @media (max-width: 480px) {
+        margin-top: 10%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: (3, 1fr);
+        grid-gap: 36px;
+        height: 60%;
+    }
 
     div {
         background-color: black;
@@ -56,6 +69,12 @@ S.Block = styled.div`
     margin-top: 5%;
 
     @media (max-width: 380px) {
+        display: none;
+        width: 50px;
+        height: 50px;
+        margin-top: 15%;
+    }
+    @media (max-width: 480px) {
         display: none;
         width: 50px;
         height: 50px;
