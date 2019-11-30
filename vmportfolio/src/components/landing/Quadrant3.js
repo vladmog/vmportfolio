@@ -56,6 +56,7 @@ S.Block = styled.div`
     margin-top: 5%;
 
     @media (max-width: 380px) {
+        display: none;
         width: 50px;
         height: 50px;
         margin-top: 15%;

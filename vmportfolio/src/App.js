@@ -19,9 +19,38 @@ S.Container = styled.div`
   align-items: center;
   box-sizing: border-box;
   background-color: #F2F2F2;
-  @media (max-width: 380px) {
-    background-color: yellow
-  }
+
+  // @media (min-width: 320px) {
+  //   background-color: yellow;
+  // }
+  // @media (min-width: 380px) {
+  //   background-color: #ed998c; 
+  //   // pink
+  // }
+  // @media (min-width: 480px) {
+  //   background-color: #b5b5b5;
+  //   // grey
+  // }
+  // @media (min-width: 600px) {
+  //   background-color: #ffce63;
+  //   // orange
+  // }
+  // @media (min-width: 768px) {
+  //   background-color: #91e698;
+  //   // green
+  // }
+  // @media (min-width: 900px) {
+  //   background-color: #d77cf2;
+  //   // purple
+  // }
+  // @media (min-width: 1024px) {
+  //   background-color: #7595ff;
+  //   // blue
+  // }
+  // @media (min-width: 1200px) {
+  //   background-color: #46f2b6;
+  //   // blue green
+  // }
 
 `
 
