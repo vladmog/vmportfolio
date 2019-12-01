@@ -4,12 +4,13 @@ import styled from "styled-components";
 const S = {}
 
 S.Container = styled.div`
+    z-index: 100;
     width: 100%;
     height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
@@ -18,6 +19,7 @@ S.Container = styled.div`
     font-style: normal;
     box-sizing: border-box;
     background-color: white;
+    // display: none;
 
     @media (max-width: 768px) {
         padding: 0px 20px;

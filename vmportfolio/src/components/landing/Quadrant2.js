@@ -118,7 +118,7 @@ function Quadrant2(props){
                     <Entry entry = {entry}/>
                 )
             })}
-            <a>MORE</a>
+            <a onClick = {(e) => props.goToJournal(e)}>MORE</a>
             <S.Block />
         </S.Container>
     )
