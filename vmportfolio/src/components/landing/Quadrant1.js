@@ -14,7 +14,7 @@ S.Container = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
-    // border: solid red 1px;
+    border: solid red 5px;
     
     @media (max-width: 768px) {
         padding: 0px 40px;

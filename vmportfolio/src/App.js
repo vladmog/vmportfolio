@@ -19,6 +19,8 @@ S.Container = styled.div`
   align-items: center;
   box-sizing: border-box;
   background-color: white;
+  // overflow-x: hidden
+  // border: solid yellow 3px;
 
   // @media (min-width: 320px) {
   //   background-color: yellow;
@@ -96,7 +98,7 @@ function App() {
       <Router>
         <Switch>
           <Route path = "/" exact component = {Landing}/>
-          <Route path = "/blog" exact component = {Blog}/>
+          <Route path = "/journal" exact component = {Blog}/>
           <Route path = "/portfolio" exact component = {Portfolio}/>
         </Switch>
       </Router>

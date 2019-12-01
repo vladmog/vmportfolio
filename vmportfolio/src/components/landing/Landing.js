@@ -17,6 +17,7 @@ S.Container = styled.div`
     font-family: acumin-pro-wide, sans-serif;
     font-weight: 700;
     font-style: normal;
+    background-color: white;
 
     footer {
         align-self: center;
@@ -38,16 +39,16 @@ function Landing(props){
         props.history.push("/portfolio")
     }
 
-    const goToBlog = (e) => {
+    const goToJournal = (e) => {
         e.preventDefault()
-        console.log("Go to blog")
-        props.history.push("/blog")
+        console.log("Go to journal")
+        props.history.push("/journal")
     }
 
     return(
         <S.Container>
             <Quadrant1 />
-            <Quadrant2 />
+            <Quadrant2 goToJournal = {goToJournal} />
             <Quadrant3 />
             <Quadrant4 />  
             <footer>
