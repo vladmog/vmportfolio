@@ -34,7 +34,6 @@ S.Banner = styled.div`
 S.H1 = styled.h1`
   /* border: solid green 1px; */
   margin: 0px;
-  height: 50%;
   width: 4.5%;
   box-sizing: border-box;
   font-size: 5.7vw;
